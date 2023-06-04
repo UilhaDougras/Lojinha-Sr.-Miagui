@@ -1,0 +1,45 @@
+body{
+    font: normal 15px
+     Arial;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#itens_section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+#sessao-venda h1{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.conteiner img{
+    width: 180px;
+
+    
+}
+.conteiner{
+    margin-left:-10px;
+    border: 2px solid rgb(25, 134, 185);
+    border-radius: 10px;
+    text-align: center;
+}
+.conteiner p{
+    font-size: 14px;
+}
+.conteiner h3{
+    font-size: 15pt;
+}
